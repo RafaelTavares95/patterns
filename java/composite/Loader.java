@@ -12,12 +12,12 @@ package composite;
  */
 public class Loader {
     public static void main(String []args){
-        Memoria m = new Memoria(4);
-        Processador p = new Processador("Intel", 2.4);
-        PlacaMae pm = new PlacaMae("ASUS");
+        Vodka v = new Vodka(40);
+        Suco s = new Suco("Maçã", 100);
+        Coquetel am = new Coquetel("Apple Martini");
         
-        pm.addComponente(m);
-        pm.addComponente(p);
-        pm.informacoes();
+        am.addBebida(v);
+        am.addBebida(s);
+        am.informacoes();
     }
 }
