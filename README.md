@@ -1,3 +1,3 @@
 # Patterns
 --------------------------------------
-Um repositorio com exemplos simples de alguns padrões em Java.
+Exemplos simples de uso dos padrões Chain Of Responsibility, Memento, Visitor, Bridge, Composite e Flyweight em Java.
